@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hacker Video Downloader</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Share Tech Mono', monospace;
+}
+
+body{
+    background:black;
+    color:#00ff66;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:480px;
+    border:2px solid #00ff66;
+    padding:30px;
+    box-shadow:0 0 20px #00ff66;
+    background:rgba(0,0,0,0.85);
+    text-align:center;
+}
+
+/* LOGO STYLE */
+.logo{
+    width:120px;
+    border-radius:50%;
+    margin-bottom:15px;
+    border:2px solid #00ff66;
+    box-shadow:0 0 15px #00ff66;
+}
+
+h1{
+    margin-bottom:20px;
+    text-shadow:0 0 10px #00ff66;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    background:black;
+    border:1px solid #00ff66;
+    color:#00ff66;
+    margin-bottom:20px;
+    outline:none;
+}
+
+input::placeholder{
+    color:#00ff66;
+    opacity:0.6;
+}
+
+.btn{
+    width:100%;
+    padding:12px;
+    margin-bottom:10px;
+    background:black;
+    border:1px solid #00ff66;
+    color:#00ff66;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#00ff66;
+    color:black;
+    box-shadow:0 0 15px #00ff66;
+}
+
+.footer{
+    margin-top:15px;
+    font-size:12px;
+    opacity:0.7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- YOUR LOGO -->
+    <img src="logo.jpg" class="logo" alt="R.D.C.S CYBER Logo">
+
+    <h1>HACKER DOWNLOADER</h1>
+
+    <input type="text" placeholder="> Paste video URL here">
+
+    <button class="btn">[ Facebook Video Download ]</button>
+    <button class="btn">[ TikTok Video Download ]</button>
+    <button class="btn">[ Likee Video Download ]</button>
+    <button class="btn">[ Instagram Video Download ]</button>
+
+    <div class="footer">
+        Access Granted ✔ | R.D.C.S CYBER
+    </div>
+</div>
+
+</body>
+</html>
